@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MapWorldSystemModelStoreContainer" CdmEntityContainer="MapWorldSystemEntities">
+    <EntitySetMapping Name="ConecionServidores">
+      <EntityTypeMapping TypeName="MapWorldSystemModel.ConecionServidores">
+        <MappingFragment StoreEntitySet="ConecionServidores">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombreConeccion" ColumnName="nombreConeccion" />
+          <ScalarProperty Name="servidor" ColumnName="servidor" />
+          <ScalarProperty Name="baseDatos" ColumnName="baseDatos" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vSysDataBase">
+      <EntityTypeMapping TypeName="MapWorldSystemModel.vSysDataBase">
+        <MappingFragment StoreEntitySet="vSysDataBase">
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+          <ScalarProperty Name="database_id" ColumnName="database_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

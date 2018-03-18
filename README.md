@@ -1,2 +1,0 @@
-# SysMedicalGest
-Proyecto Ips

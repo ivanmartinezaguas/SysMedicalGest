@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MapWorldSystemModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ConecionServidores">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombreConeccion" Type="varchar" MaxLength="500" />
+    <Property Name="servidor" Type="varchar" MaxLength="100" />
+    <Property Name="baseDatos" Type="varchar" MaxLength="100" />
+    <Property Name="usuario" Type="varchar" MaxLength="100" />
+    <Property Name="contrasena" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'MapWorldSystem.dbo.vSysDataBase' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vSysDataBase">
+    <Key>
+      <PropertyRef Name="name" />
+      <PropertyRef Name="database_id" />
+      <PropertyRef Name="create_date" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="database_id" Type="int" Nullable="false" />
+    <Property Name="create_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="MapWorldSystemModelStoreContainer">
+    <EntitySet Name="ConecionServidores" EntityType="Self.ConecionServidores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vSysDataBase" EntityType="Self.vSysDataBase" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vSysDataBase].[name] AS [name], 
+    [vSysDataBase].[database_id] AS [database_id], 
+    [vSysDataBase].[create_date] AS [create_date]
+    FROM [dbo].[vSysDataBase] AS [vSysDataBase]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

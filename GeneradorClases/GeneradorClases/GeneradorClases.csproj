@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{162F71EC-43A3-4904-B686-8E263B773A77}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeneradorClases</RootNamespace>
+    <AssemblyName>GeneradorClases</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\Controller\ConecionServidorController.cs" />
+    <Compile Include="Entity\Controller\GeneradorClasesViewModel.cs" />
+    <Compile Include="Entity\Controller\GeneradorCrudBoostrap.cs" />
+    <Compile Include="Entity\Controller\GeneradorSimpleJs.cs" />
+    <Compile Include="Entity\Controller\GenerarClasesPatterState.cs" />
+    <Compile Include="Entity\Controller\GenerarControladoresConCRUD.cs" />
+    <Compile Include="Entity\Controller\generarControladoresSinCRUD.cs" />
+    <Compile Include="Entity\Controller\GenerarTrazabilidad.cs" />
+    <Compile Include="Entity\Controller\GenerarWebMethod.cs" />
+    <Compile Include="Entity\Controller\MetodosGeneralesController.cs" />
+    <Compile Include="Entity\Controller\vSysDataBaseController.cs" />
+    <Compile Include="Entity\Model\Class1.cs" />
+    <Compile Include="Entity\Model\ConecionServidores.cs">
+      <DependentUpon>GeneradorCodigo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Model\ConecionServidorViewModel.cs" />
+    <Compile Include="Entity\Model\DatosColumna.cs" />
+    <Compile Include="Entity\Model\GeneradorCodigo.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GeneradorCodigo.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Model\GeneradorCodigo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GeneradorCodigo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Model\GeneradorCodigo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GeneradorCodigo.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Model\vSysDataBase.cs">
+      <DependentUpon>GeneradorCodigo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Model\vSysDataBaseViewModel.cs" />
+    <Compile Include="frmAdministracionConeccion_Editar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministracionConeccion_Editar.Designer.cs">
+      <DependentUpon>frmAdministracionConeccion_Editar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdministracionConeccion_Nuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministracionConeccion_Nuevo.Designer.cs">
+      <DependentUpon>frmAdministracionConeccion_Nuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadosPatron.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadosPatron.Designer.cs">
+      <DependentUpon>frmEstadosPatron.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeneradorCodigos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneradorCodigos.Designer.cs">
+      <DependentUpon>frmGeneradorCodigos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeneradorFronEndAndWebMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneradorFronEndAndWebMethod.Designer.cs">
+      <DependentUpon>frmGeneradorFronEndAndWebMethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeneradorTrazabilidadDesencadenadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneradorTrazabilidadDesencadenadores.Designer.cs">
+      <DependentUpon>frmGeneradorTrazabilidadDesencadenadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoAdministracionConecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoAdministracionConecciones.Designer.cs">
+      <DependentUpon>frmListadoAdministracionConecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAdministracionConeccion_Editar.resx">
+      <DependentUpon>frmAdministracionConeccion_Editar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministracionConeccion_Nuevo.resx">
+      <DependentUpon>frmAdministracionConeccion_Nuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadosPatron.resx">
+      <DependentUpon>frmEstadosPatron.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeneradorCodigos.resx">
+      <DependentUpon>frmGeneradorCodigos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeneradorFronEndAndWebMethod.resx">
+      <DependentUpon>frmGeneradorFronEndAndWebMethod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeneradorTrazabilidadDesencadenadores.resx">
+      <DependentUpon>frmGeneradorTrazabilidadDesencadenadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoAdministracionConecciones.resx">
+      <DependentUpon>frmListadoAdministracionConecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="Entity\Model\GeneradorCodigo.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>GeneradorCodigo.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Entity\Model\GeneradorCodigo.edmx.diagram">
+      <DependentUpon>GeneradorCodigo.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriaControlesGeneradorCodigo\LibreriaControlesGeneradorCodigo.csproj">
+      <Project>{77F9E403-E18F-40BC-9D9C-3B60682E0969}</Project>
+      <Name>LibreriaControlesGeneradorCodigo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entity\Model\GeneradorCodigo.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GeneradorCodigo.edmx</DependentUpon>
+      <LastGenOutput>GeneradorCodigo.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Entity\Model\GeneradorCodigo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GeneradorCodigo.edmx</DependentUpon>
+      <LastGenOutput>GeneradorCodigo.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

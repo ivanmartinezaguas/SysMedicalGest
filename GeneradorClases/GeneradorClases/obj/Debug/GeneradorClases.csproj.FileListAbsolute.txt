@@ -1,0 +1,85 @@
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.exe.config
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.exe
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.pdb
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.dll
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\LibreriaControlesGeneradorCodigo.dll
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\LibreriaControlesGeneradorCodigo.pdb
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.xml
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.csprojResolveAssemblyReference.cache
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmAdministracionConeccion_Editar.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmAdministracionConeccion_Nuevo.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmListadoAdministracionConecciones.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.Principal.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.Properties.Resources.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.csproj.GenerateResource.Cache
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.exe
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.pdb
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmEstadosPatron.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorCodigos.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.exe.config
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.exe
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.pdb
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.exe
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.pdb
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.dll
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\LibreriaControlesGeneradorCodigo.dll
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\LibreriaControlesGeneradorCodigo.pdb
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.xml
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.csprojResolveAssemblyReference.cache
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmAdministracionConeccion_Editar.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmAdministracionConeccion_Nuevo.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmEstadosPatron.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorCodigos.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorTrazabilidadDesencadenadores.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmListadoAdministracionConecciones.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.Principal.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.Properties.Resources.resources
+C:\Users\amartinez\Desktop\GeneradoClases\GeneradorClasesTrasabilidad\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.csproj.GenerateResource.Cache
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.exe.config
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.exe
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.pdb
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.exe
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.pdb
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.dll
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.SqlServer.dll
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\LibreriaControlesGeneradorCodigo.dll
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\LibreriaControlesGeneradorCodigo.pdb
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.xml
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.SqlServer.xml
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.csprojResolveAssemblyReference.cache
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmAdministracionConeccion_Editar.resources
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmAdministracionConeccion_Nuevo.resources
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmEstadosPatron.resources
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorCodigos.resources
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorTrazabilidadDesencadenadores.resources
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmListadoAdministracionConecciones.resources
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.Principal.resources
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.Properties.Resources.resources
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.csproj.GenerateResource.Cache
+F:\GeneradorClaseYTablas\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorFronEndAndWebMethod.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.exe.config
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.exe
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.pdb
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.exe
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\GeneradorClases.pdb
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.dll
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\LibreriaControlesGeneradorCodigo.dll
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\LibreriaControlesGeneradorCodigo.pdb
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.xml
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.csprojResolveAssemblyReference.cache
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmAdministracionConeccion_Editar.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmAdministracionConeccion_Nuevo.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmEstadosPatron.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorCodigos.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorFronEndAndWebMethod.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmGeneradorTrazabilidadDesencadenadores.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.frmListadoAdministracionConecciones.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.Principal.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.Properties.Resources.resources
+D:\PROYECTO MOLDE\GeneradorDeClases\Trunk\GeneradorClases\GeneradorClases\obj\Debug\GeneradorClases.csproj.GenerateResource.Cache
